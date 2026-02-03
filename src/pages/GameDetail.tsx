@@ -42,6 +42,15 @@ export default function GameDetail() {
                         <img src={'./images/logo_steam_small.png'} alt={'steam-image'} className="w-6 h-6"/>
                 </a>
             )}
+            {game.link_download && (
+                <a href={game.link_download}
+                    target="_blank"
+                    title="Download"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center ml-4">
+                    <span className="text-2xl">&#x2B07;</span>
+                </a>
+            )}
         </div>
 
         <div className="max-w-3xl text-left">

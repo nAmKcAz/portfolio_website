@@ -3,6 +3,7 @@ export interface Game {
   title: string;
   image: string;
   link?: string;
+  link_download?: string;
   link_steam?: string;
   overview: string;
   role: string;
@@ -165,7 +166,7 @@ export const games: Game[] = [
         <img src=\"${baseUrl}images/swizzle/IMG_0002.PNG\" alt=\"game-image-2\" class=\"w-full max-w-80 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative\"/>
         </div>`,
       role: "This was an independent venture, I built this game from scratch including the art/effects, gameplay and progression systems, Google Admob integrations, and mobile native social sharing hooks. This game also included a high score tracking system and online leaderboard built in NodeJS.",
-      link: "TODO: Link to downloadable APK",
+      link_download: `${baseUrl}files/swizzle-game-build.zip`,
       abstract_title: "Swizzle: Word Game",
       abstract_image: `${baseUrl}images/swizzle/swizzleIcon.png`,
       tech: ["Unity", "C#", "Android", "iOS", "Google Admob", "NodeJS"],
