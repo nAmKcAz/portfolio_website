@@ -15,26 +15,27 @@ export interface Game {
   who_linked_in?: string;
   who_github?: string;
 }
+const baseUrl = import.meta.env.BASE_URL;
 
 export const games: Game[] = [
     {
       id: "edgeofdivinit",
       title: "Edge of Divinity",
-      image: "/images/eod/EOD_Title2.png",
+      image: `${baseUrl}images/eod/EOD_Title2.png`,
       overview:
         `<span class=\"text-lg font-semibold\">Edge of Divinity</span><span> is a follow on from </span><span class=\"text-lg font-semibold\">Starlight Re:Volver</span><span> where we reworked the art and core game systems, removed the social city outgame portions, and made a focused Roguelite experience where your character climbs the tower floor by floor trying to get back to the celestial realm until you fall back down to basecamp.</span>
         <div class=\"flex items-center\">
-        <img src=\"/images/eod/EOD_Menu.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"/images/eod/EOD_Preon.png\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/eod/EOD_Menu.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/eod/EOD_Preon.png\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
         </div>
         <div class=\"flex items-center\">
-        <img src=\"/images/eod/EOD_Arcana.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"/images/eod/EOD_Gameplay2.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/eod/EOD_Arcana.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/eod/EOD_Gameplay2.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
         </div>`,
       role: "Pahdo Labs shrunk dramatically after Starlight Re:Volver to focus on trying to release a 2nd game and possibly acquire enough funds to continue operating. I worked on almost every part of this game, from re-working our netcode to be P2P using Fishy Steamworks instead of server centric, to building a new outgame progression system and UIs for Score and Ranks, to fleshing out a new in game missions progress tracking system and UIs, to helping build a new experience for selecting you character loadout, to helping build and tune levels, to building game menus, to removing all of our backend service integrations, to tearing down our old AWS infrastructure, to tracking down bugs in state machines and timelines, and just about everything in between.",
       link_steam: "https://store.steampowered.com/app/4329030/Edge_of_Divinity/",
       abstract_title: "Edge of Divinity",
-      abstract_image: "/images/eod/EOD_Title.jpg",
+      abstract_image: `${baseUrl}images/eod/EOD_Title.jpg`,
       tech: ["Unity", "C#", "Fishnet", "Coherent Gameface", "React", "Steam"],
       date: "November 2025 - February 2026",
       who: "Pahdo Labs",
@@ -45,21 +46,21 @@ export const games: Game[] = [
     {
       id: "starlight",
       title: "Starlight Re:Volver",
-      image: "/images/srv/SRV_Banner1.png",
+      image: `${baseUrl}images/srv/SRV_Banner1.png`,
       overview:
         `<span class=\"text-lg font-semibold\">Starlight Re:Volver</span><span> is a Magical Girl Roguelite multiplayer game that blends a highly social outworld with a fast paced dungeon diving roguelite experience. Transform into one of 4 magical heroes, collect cosmetics and accessories, upgrade for future dives with trinkets, and experience fishing and crafting.</span>
         <div class=\"flex items-center\">
-          <img src=\"/images/srv/SRV_Menu.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"/images/srv/SRV_Nim_Fishing.png\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"/images/srv/SRV_Nim_Shopping.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+          <img src=\"${baseUrl}images/srv/SRV_Menu.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+          <img src=\"${baseUrl}images/srv/SRV_Nim_Fishing.png\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+          <img src=\"${baseUrl}images/srv/SRV_Nim_Shopping.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
         </div>
         <div class=\"flex items-center\">
-          <img src=\"/images/srv/SRV_Nim_Dive.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"/images/srv/SRV_Gameplay.jpg\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-          <img src=\"/images/srv/SRV_SOMI_Portals.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+          <img src=\"${baseUrl}images/srv/SRV_Nim_Dive.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+          <img src=\"${baseUrl}images/srv/SRV_Gameplay.jpg\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+          <img src=\"${baseUrl}images/srv/SRV_SOMI_Portals.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
         </div>
         <div class=\"flex items-center\">
-          <img src=\"/images/srv/SRV_Sendoff.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+          <img src=\"${baseUrl}images/srv/SRV_Sendoff.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
         </div>`,
       role: `I joined this project 'late', about 5 months before early access release. My purpose was to help accelerate the release on the engineering side. I ended up contributing to this game on everything from PostgreSQL database tables matchmaking all the way up to Coherent Gameface UIs for gameplay and outgame systems.
       <div class=\"font-lg font-semibold mt-4\">Backend APIs/DBs</div>
@@ -91,7 +92,7 @@ export const games: Game[] = [
       link: "https://starlightrevolver.com/",
       link_steam: "https://store.steampowered.com/app/3201010/Starlight_Revolver/",
       abstract_title: "Starlight Re:Volver",
-      abstract_image: "/images/srv/SRV_Header.jpg",
+      abstract_image: `${baseUrl}images/srv/SRV_Header.jpg`,
       tech: ["Unity", "C#", "Fishnet", "Coherent Gameface", "React", "Steam", "Playfab", "Unity Gaming Services", "Vivox Chat", "Twitch", "APIs", "AWS-Gamelift", "PostgreSQL"],
       date: "March 2025 - November 2025",
       who: "Pahdo Labs",
@@ -102,21 +103,21 @@ export const games: Game[] = [
     {
       id: "regressiongames",
       title: "Regression Games",
-      image: "/images/rg/RG_Staff2.png",
+      image: `${baseUrl}images/rg/RG_Staff2.png`,
       overview:
         `<span class=\"text-lg font-semibold\">Regression Games</span> was an AI Gaming startup that after a few experiments, landed on trying to solve testing in games using a combination of gameplay recordings, AI, and Computer Vision analysis. We released a product that allowed users to record segments of gameplay (states&inputs) and build those into sequences with validations similarly to how you might test a modern web application.
         <div class=\"flex items-center\">
-        <img src=\"/images/rg/CV_analysis.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"/images/rg/demo.gif\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/rg/CV_analysis.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/rg/demo.gif\" alt=\"game-image-2\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
         </div>
         <div class=\"flex items-center\">
-        <img src=\"/images/rg/GameplayrecordingSample.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
-        <img src=\"/images/rg/ViewingARecording.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/rg/GameplayrecordingSample.png\" alt=\"game-image-3\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/rg/ViewingARecording.png\" alt=\"game-image-4\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative\"/>
         </div>
         <div class="flex items-center">
           <div className="group relative w-full max-w-70 mx-4 my-4">
             <video 
-              src="/images/rg/BotSequenceBuilder.mp4" 
+              src="${baseUrl}images/rg/BotSequenceBuilder.mp4" 
               autoPlay 
               loop 
               muted 
@@ -145,7 +146,7 @@ export const games: Game[] = [
       </div>`,
       link: "https://www.regression.gg/",
       abstract_title: "Regression Games",
-      abstract_image: "/images/rg/RG_Staff2.png",
+      abstract_image: `${baseUrl}images/rg/RG_Staff2.png`,
       tech: ["Unity", "C#", "NodeJS", "Python", "SWIFT", "Computer Vision", "AI", "Kotlin", "APIs", "MySQL"],
       date: "September 2022 - March 2025",
       who: "Regression Games",
@@ -156,17 +157,17 @@ export const games: Game[] = [
     {
       id: "swizzle",
       title: "Swizzle: Word Game",
-      image: "/images/swizzle/SWIZZLE_FEATURE_GRAPHIC.png",
+      image: `${baseUrl}images/swizzle/SWIZZLE_FEATURE_GRAPHIC.png`,
       overview:
         `<span class=\"text-lg font-semibold\">Swizzle: Word Game</span> was my first foray into mobile gaming. It was a mobile word finding game with daily challenges and a level progression system. Users swiped to build words from the grid of letters to complete the objectives of each level. It was released on Kindle, Android, and iOS.
         <div class=\"flex items-center\">
-        <img src=\"/images/swizzle/Screenshot_RELAX_2_1920_1080.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative\"/>
-        <img src=\"/images/swizzle/IMG_0002.PNG\" alt=\"game-image-2\" class=\"w-full max-w-80 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/swizzle/Screenshot_RELAX_2_1920_1080.png\" alt=\"game-image\" class=\"w-full max-w-70 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative\"/>
+        <img src=\"${baseUrl}images/swizzle/IMG_0002.PNG\" alt=\"game-image-2\" class=\"w-full max-w-80 mx-4 my-4 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative\"/>
         </div>`,
       role: "This was an independent venture, I built this game from scratch including the art/effects, gameplay and progression systems, Google Admob integrations, and mobile native social sharing hooks. This game also included a high score tracking system and online leaderboard built in NodeJS.",
       link: "TODO: Link to downloadable APK",
       abstract_title: "Swizzle: Word Game",
-      abstract_image: "/images/swizzle/swizzleIcon.png",
+      abstract_image: `${baseUrl}images/swizzle/swizzleIcon.png`,
       tech: ["Unity", "C#", "Android", "iOS", "Google Admob", "NodeJS"],
       date: "January 2022 - September 2022",
       who: "Mud Creek Games (Independent)",
