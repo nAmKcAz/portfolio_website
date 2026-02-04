@@ -26,10 +26,10 @@ export const games: Game[] = [
       overview:
         `<span class="text-lg font-semibold">Edge of Divinity</span><span> is a follow on from </span><span class="text-lg font-semibold">Starlight Re:Volver</span><span> where we reworked the art and core game systems, removed the social city outgame portions, and made a focused Roguelite experience where your character climbs the tower floor by floor trying to get back to the celestial realm until you fall back down to basecamp.</span>
         <div class="flex flex-wrap items-center">
-          <img src="${baseUrl}images/eod/EOD_Menu.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/eod/EOD_Preon.png" alt="game-image-2" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/eod/EOD_Arcana.png" alt="game-image-3" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/eod/EOD_Gameplay2.png" alt="game-image-4" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/eod/EOD_Menu.png" alt="game-image" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/eod/EOD_Preon.png" alt="game-image-2" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/eod/EOD_Arcana.png" alt="game-image-3" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/eod/EOD_Gameplay2.png" alt="game-image-4" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
         </div>`,
       role: `Pahdo Labs shrunk dramatically after Starlight Re:Volver to focus on trying to release a 2nd game and possibly acquire enough funds to continue operating.
       <div class="mt-2" >I worked on almost every part of this game ...</div>
@@ -62,13 +62,13 @@ export const games: Game[] = [
       overview:
         `<span class="text-lg font-semibold">Starlight Re:Volver</span><span> is a Magical Girl Roguelite multiplayer game that blends a highly social outworld with a fast paced dungeon diving roguelite experience. Transform into one of 4 magical heroes, collect cosmetics and accessories, upgrade for future dives with trinkets, and experience fishing and crafting.</span>
         <div class="flex flex-wrap tems-center">
-          <img src="${baseUrl}images/srv/SRV_Menu.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/srv/SRV_Nim_Fishing.png" alt="game-image-2" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/srv/SRV_Nim_Shopping.png" alt="game-image-3" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/srv/SRV_Nim_Dive.png" alt="game-image-4" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/srv/SRV_Gameplay.jpg" alt="game-image-5" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/srv/SRV_SOMI_Portals.png" alt="game-image-6" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/srv/SRV_Sendoff.png" alt="game-image-7" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Menu.png" alt="game-image" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Nim_Fishing.png" alt="game-image-2" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Nim_Shopping.png" alt="game-image-3" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Nim_Dive.png" alt="game-image-4" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Gameplay.jpg" alt="game-image-5" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_SOMI_Portals.png" alt="game-image-6" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/srv/SRV_Sendoff.png" alt="game-image-7" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
         </div>`,
       role: `I joined this project 'late', about 5 months before early access release. My purpose was to help accelerate the release on the engineering side. I ended up contributing to this game on everything from PostgreSQL database tables, to matchmaking apis, all the way up to Coherent Gameface UIs for gameplay and outgame systems.
       <div class="font-lg font-semibold mt-4">Backend APIs/DBs</div>
@@ -115,11 +115,11 @@ export const games: Game[] = [
       overview:
         `<span class="text-lg font-semibold">Regression Games</span> was an AI Gaming startup that after a few experiments, landed on trying to solve testing in games using a combination of gameplay recordings, AI, and Computer Vision analysis. We released a product that allowed users to record segments of gameplay (states&inputs) and build those into sequences with validations similarly to how you might test a modern web application.
         <div class="flex flex-wrap tems-center">
-          <img src="${baseUrl}images/rg/CV_analysis.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/rg/demo.gif" alt="game-image-2" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/rg/GameplayrecordingSample.png" alt="game-image-3" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <img src="${baseUrl}images/rg/ViewingARecording.png" alt="game-image-4" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
-          <div className="group relative w-full max-w-60 mx-2 my-2">
+          <img src="${baseUrl}images/rg/CV_analysis.png" alt="game-image" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/rg/demo.gif" alt="game-image-2" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/rg/GameplayrecordingSample.png" alt="game-image-3" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/rg/ViewingARecording.png" alt="game-image-4" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[3.5] hover:z-50 hover:relative"/>
+          <div className="group relative w-35 md:w-60 mx-2 my-2">
             <video 
               src="${baseUrl}images/rg/BotSequenceBuilder.mp4" 
               autoPlay 
@@ -165,7 +165,7 @@ export const games: Game[] = [
       overview:
         `<span class="text-lg font-semibold">Swizzle: Word Game</span> was my first foray into mobile gaming. It was a mobile word finding game with daily challenges and a level progression system. Users swiped to build words from the grid of letters to complete the objectives of each level. It was released on Kindle, Android, and iOS.
         <div class="flex flex-wrap items-center">
-          <img src="${baseUrl}images/swizzle/Screenshot_RELAX_2_1920_1080.png" alt="game-image" class="w-full max-w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
+          <img src="${baseUrl}images/swizzle/Screenshot_RELAX_2_1920_1080.png" alt="game-image" class="w-35 md:w-60 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
           <img src="${baseUrl}images/swizzle/IMG_0002.PNG" alt="game-image-2" class="w-full max-w-80 mx-2 my-2 rounded-xl shadow-lg border border-slate-800 transition-transform duration-500 ease-in-out hover:scale-[1.25] hover:z-50 hover:relative"/>
         </div>`,
       role: "This was an independent venture, I built this game from scratch including the art/effects, gameplay and progression systems, Google Admob integrations, and mobile native social sharing hooks. This game also included a high score tracking system and online leaderboard built in NodeJS.",
