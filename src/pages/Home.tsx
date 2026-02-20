@@ -14,7 +14,7 @@ export default function Home() {
               className="col-4 rounded-full mb-4 object-cover" 
             />
             <div className="developer-name col-start-2 col-span-5 text-3xl font-semibold mb-2">Zack Darden</div>
-            <div className="developer-title col-start-2 col-span-5 text-1xl font-semibold mb-4">Senior Software Engineer | Backend APIs, System Integrations, Games & Networking</div>
+            <div className="developer-title col-start-2 col-span-5 text-1xl font-semibold mb-4">Software Engineer | Backend APIs, System Integrations, Games & Networking</div>
             <div className="developer-description col-start-2 col-span-5 text-gray-400 text-sm mb-4">From backend APIs and databases, to system integrations, to gameplay systems and objects, to applications, to network transports, to performance tuning, to React UIs, a dash of AI and Computer Vision analysis, and even some CI, cloud infrastructure, and deployment; fullstack in the truest sense of the word.</div>
             <div className="social-links col-start-1 col-span-7 flex items-center justify-center mb-8">
                 <div className="github w-6 h-6 object-cover">
